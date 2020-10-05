@@ -14,10 +14,12 @@ import {
 import { Text } from 'theme-ui';
 import { Slider } from 'theme-ui';
 import theme from './theme';
+import { Muuri } from './Muuri';
 
 function App() {
   return (
     <ThemeProvider theme={theme}>
+      <Muuri />
       <header className="App-header">
         <Text
           sx={{

@@ -5622,6 +5622,14 @@ ms@2.1.2:
   resolved "https://registry.yarnpkg.com/ms/-/ms-2.1.2.tgz#d09d1f357b443f493382a8eb3ccd183872ae6009"
   integrity sha512-sGkPx+VjMtmA6MX27oA4FBFELFCZZ4S4XqeGOXCv68tT+jb3vk/RyaKWP0PTKyWtmLSM0b+adUTEvbs1PEaH2w==
 
+muuri-react@^3.1.6:
+  version "3.1.6"
+  resolved "https://registry.yarnpkg.com/muuri-react/-/muuri-react-3.1.6.tgz#e42222a48cb60b87489fa272ad532994e9111aac"
+  integrity sha512-r3EoHD2LL0m6tB6ymgDXIvbiou9r7cJSCFKLW8WcprzKWuWQxtKLRYfW+YOvkqzW73MfHHVf9/jNei3txFaIRw==
+  dependencies:
+    "@babel/runtime" "^7.9.2"
+    prop-types "^15.7.2"
+
 muuri@^0.9.3:
   version "0.9.3"
   resolved "https://registry.yarnpkg.com/muuri/-/muuri-0.9.3.tgz#34c2bb785cca2dfaba39f5826b271edfb22477a8"
