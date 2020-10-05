@@ -1,0 +1,51 @@
+{
+  "scripts": {
+    "start": "snowpack dev",
+    "build": "snowpack build",
+    "test": "jest",
+    "format": "prettier --write \"src/**/*.{js,jsx,ts,tsx}\"",
+    "lint": "eslint . && prettier --check \"src/**/*.{js,jsx,ts,tsx}\""
+  },
+  "dependencies": {
+    "@cucumber/gherkin": "^15.0.2",
+    "@theme-ui/preset-base": "^0.3.0",
+    "@theme-ui/presets": "^0.3.0",
+    "muuri": "^0.9.3",
+    "react": "^16.13.1",
+    "react-dom": "^16.13.1",
+    "styled-components": "^5.2.0",
+    "theme-ui": "^0.3.1"
+  },
+  "devDependencies": {
+    "@babel/preset-react": "^7.10.4",
+    "@babel/preset-typescript": "^7.10.4",
+    "@snowpack/app-scripts-react": "^1.12.0",
+    "@snowpack/plugin-dotenv": "^2.0.1",
+    "@snowpack/plugin-react-refresh": "^2.3.0",
+    "@testing-library/jest-dom": "^5.5.0",
+    "@testing-library/react": "^10.0.3",
+    "@types/react": "^16.9.49",
+    "@types/react-dom": "^16.9.8",
+    "@types/snowpack-env": "^2.3.0",
+    "@types/styled-components": "^5.1.3",
+    "@types/theme-ui": "^0.3.7",
+    "@typescript-eslint/eslint-plugin": "^4.3.0",
+    "@typescript-eslint/parser": "^4.3.0",
+    "babel-eslint": "^10.1.0",
+    "eslint": "^7.10.0",
+    "eslint-config-prettier": "^6.12.0",
+    "eslint-config-react-app": "^5.2.1",
+    "eslint-plugin-flowtype": "^5.2.0",
+    "eslint-plugin-import": "^2.22.1",
+    "eslint-plugin-jsx-a11y": "^6.3.1",
+    "eslint-plugin-react": "^7.21.3",
+    "eslint-plugin-react-hooks": "^4.1.2",
+    "jest": "^26.2.2",
+    "jest-cucumber": "^3.0.0",
+    "playwright": "^1.4.2",
+    "playwright-testing-library": "^2.6.0",
+    "prettier": "^2.0.5",
+    "snowpack": "^2.13.0",
+    "typescript": "^4.0.0"
+  }
+}
